@@ -1,0 +1,61 @@
+.counter {
+    width: 40px;
+    height: 40px;
+    /* background: rgb(129, 37, 37); */
+    position: relative; 
+}
+
+.outerCircle {
+    height: 100%;
+    width: 100%;
+    /* border:1px solid red; */
+    border-radius: 50%;
+    box-shadow: inset 6px 6px 6px -1px  rgba(255, 255, 255, 0.15),
+                    -1px -1px 1px -1px rgba(255,255,255,0.17),
+                inset 6px 6px 6px -1px  rgba(0, 0, 0, 0.15),
+                    1px 1px 1px -1px rgba(255,255,255,0.17),
+                inset -6px -6px 6px -1px  rgba(0,0,0,0.15),
+                    1px 1px 1px -1px rgba(255,255,255,0.17),
+                inset -6px 6px 6px 1px  rgba(255,255,255,0.15),
+                    1px 1px 1px -1px rgba(255,255,255,0.17)
+}
+
+.innerCircle {
+    height: 40px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border:1px solid red; */
+    border-radius: 50%;
+    box-shadow: #555;
+}
+
+#number {
+    font-weight: 700;
+    color: #3dc6c1
+}
+circle {
+    fill: none;
+    stroke: #3dc6c1;
+    /* color: rgb(141, 49, 49); */
+    stroke-width: 5px;
+    stroke-dasharray: 130;
+    stroke-dashoffset: 0;
+    stroke-linejoin: round;
+    animation: anim 60s linear forwards;
+    animation-iteration-count: infinite;
+    /* background-color: rgb(163, 35, 35); */
+}
+
+svg {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+@keyframes anim {
+    100% {
+        stroke-dashoffset: 130;
+    }
+}

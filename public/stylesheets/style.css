@@ -1,0 +1,175 @@
+.theme{
+  color: rgb(61, 198, 193);
+}
+body{
+  background: #fff;
+}
+/* header */
+header{
+  padding-left:20px;
+  padding-top:10px
+}
+.headNav{
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+.brand{
+  font-size: 40px;
+  text-decoration: none;
+}
+.moto{
+  color: grey;
+  font-weight: 700;
+  font-size: 18px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.part2{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+/* designing select btn */
+.part2 > *{
+  width: 80px;
+  height: 35px;
+  text-align: center;
+  color: white;
+  margin: 10px;
+  padding: 6px 20px 20px 20px;
+  border-radius: 10px;
+}
+
+.part3{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.part3 > *{
+  margin-left: 15px;
+  margin-right: 15px;
+}
+#teleBtn{
+    margin: 10px;
+    padding: 6px 20px;
+    border-radius: 10px;
+    font-size: 30px;
+    background-color: #3dc6c1;
+    color: #fff;  
+    font-size: 1rem;
+    font-family: "Oswald",sans-serif;
+}
+.telegram-logo{
+  height: 35px;
+  margin-right: 10px;
+  color: #fff
+}
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+  opacity: 50;
+  width: 0;
+  height: 0;
+}
+
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #cccccca8;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: #3dc6c1;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #31373d;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(100%);
+  -ms-transform: translateX(100%);
+  transform: translateX(100%);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+/* body design */
+
+table {
+  border-collapse: collapse;
+  width: 95%;
+}
+table tr{
+  font-size: 1.5rem;
+  font-family: "Oswald";
+  font-weight: bold;
+}
+.table2 tr{
+  background-color: grey;
+}
+th {
+  /* background-color:grey; */
+  background-color: rgba(184, 111, 38, 0);
+  color:grey;
+}
+th,td {
+  width:150px;
+  border:1px solid black;
+  padding-top:5px;
+  padding-bottom:5px;
+  padding-left: 30px;
+}
+.cell1 {
+  border-right:hidden;
+}
+.table2 {
+  border-collapse:separate;
+  border-spacing:0 15px;
+}
+h1 {
+  color:green;
+}
+
+td:first-child{
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.table2 td:last-child{
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
