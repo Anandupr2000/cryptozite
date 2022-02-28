@@ -10,11 +10,11 @@
     width: 100%;
     /* border:1px solid red; */
     border-radius: 50%;
-    box-shadow: inset 6px 6px 6px -1px  rgba(255, 255, 255, 0.15),
+    box-shadow: inset 6px 6px 6px -6px  rgba(255, 255, 255, 0.15),
                     -1px -1px 1px -1px rgba(255,255,255,0.17),
-                inset 6px 6px 6px -1px  rgba(0, 0, 0, 0.15),
+                inset 6px 6px 6px -1px  rgba(255, 255, 255, 0.15),
                     1px 1px 1px -1px rgba(255,255,255,0.17),
-                inset -6px -6px 6px -1px  rgba(0,0,0,0.15),
+                inset -6px -6px 6px -1px  rgba(255, 255, 255, 0.15),
                     1px 1px 1px -1px rgba(255,255,255,0.17),
                 inset -6px 6px 6px 1px  rgba(255,255,255,0.15),
                     1px 1px 1px -1px rgba(255,255,255,0.17)
@@ -40,7 +40,7 @@ circle {
     stroke: #3dc6c1;
     /* color: rgb(141, 49, 49); */
     stroke-width: 5px;
-    stroke-dasharray: 130;
+    stroke-dasharray: 95;
     stroke-dashoffset: 0;
     stroke-linejoin: round;
     animation: anim 60s linear forwards;
@@ -56,6 +56,6 @@ svg {
 
 @keyframes anim {
     100% {
-        stroke-dashoffset: 130;
+        stroke-dashoffset: 95;
     }
 }

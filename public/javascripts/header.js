@@ -10,7 +10,7 @@ setInterval(()=>{
 var btn = document.getElementById("toggleBtn")
 var body = document.getElementsByTagName("body")[0]
 body.style.background ="white"
-btn.addEventListener("click",()=>{
+btn.addEventListener("change",()=>{
     var bgColor = body.style.backgroundColor;
     console.log("btn clicked")
     console.log(bgColor)

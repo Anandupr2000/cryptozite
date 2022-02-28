@@ -132,7 +132,8 @@ input:checked + .slider:before {
 
 table {
   border-collapse: collapse;
-  width: 95%;
+  width: 99%;
+  padding: 10px;
 }
 table tr{
   font-size: 1.5rem;
