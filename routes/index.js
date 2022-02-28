@@ -9,7 +9,7 @@ const dbHelper = require("../helpers/dbHelper")
 /* GET home page. */
 router.get('/', async function(req, res, next) {
   let crypto = await dbHelper.getAll()
-  res.render('users/body', { title: 'Express',c:crypto });
+  res.render('users/body', { title: 'HodlInfo',c:crypto });
 });
 // fetch 10 data from url and storing it to db
 router.get("/fetchData", async (req, res) => {
