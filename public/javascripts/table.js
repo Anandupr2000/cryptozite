@@ -9,9 +9,9 @@ function syncTableData(){
             for(var i=0;i<10;i++)
             document.getElementById(response[i]._id).innerHTML = "<td class='cell1'>"+response[i].slno
                                                                 +"</td><td>"+response[i].name
-                                                                +"</td><td>"+response[i].last
-                                                                +"</td><td>"+response[i].buy
-                                                                +"/"+response[i].sell
+                                                                +"</td><td>₹ "+response[i].last
+                                                                +"</td><td>₹ "+response[i].buy
+                                                                +" / ₹ "+response[i].sell
                                                                 +"</td><td>"+response[i].volume
                                                                 +"</td><td>"+response[i].base_unit
                                                                 +"</td>"
