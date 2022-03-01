@@ -12,7 +12,7 @@ const mongo = new MongoClient(uri, { useNewUrlParser: true, useUnifiedTopology: 
 function getdb(done){
     return new Promise((resolve,reject)=>{
         mongo.connect().then(()=>{
-            console.log("sucess")
+            // console.log("sucess")
             resolve(done(mongo.db(dbname)))
             }
         )

@@ -1,6 +1,5 @@
 var express = require('express');
 var router = express.Router();
-// const https = require('https');
 
 const cryptoDetailsModel = require("../models/crypto");
 // importing all fn in product-helpers as object
@@ -19,7 +18,6 @@ router.get('/json',async (req,res)=>{
 })
 
 // fetch 10 data from url and storing it to db
-// router.get("/fetchData", 
 async function updateData() {
   let data;
   try {
@@ -41,14 +39,11 @@ async function updateData() {
         dbHelper.updateData(data[element])
         i++
     }
-  //   res.send(data);
   } catch (error) {
-  //   res.status(500).send(error);
     console.log("Error occured while upading data")
     console.log(error)
   }
 }
-// )
 // after each minute data get updated
 setInterval(updateData,60000)
 
