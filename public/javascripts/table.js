@@ -11,7 +11,7 @@ function syncTableData(){
                                                                 +"</td><td>"+response[i].name
                                                                 +"</td><td>"+response[i].last
                                                                 +"</td><td>"+response[i].buy
-                                                                +"</td><td>"+response[i].sell
+                                                                +"/"+response[i].sell
                                                                 +"</td><td>"+response[i].volume
                                                                 +"</td><td>"+response[i].base_unit
                                                                 +"</td>"
