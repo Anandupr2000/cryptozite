@@ -164,9 +164,7 @@ th,td {
   border:1px solid black;
   text-align: center;
 }
-.table2 td:nth-child(1){
-  width: 10px;
-}
+
 .cell1 {
   border-right:hidden;
   width: 10px;
@@ -178,7 +176,15 @@ th,td {
 h1 {
   color:green;
 }
-
+.table2 td:nth-child(1){
+  width: 10px;
+}
+th:nth-child(4){
+    width: 200px;
+}
+td:nth-child(4){
+  width: 200px;
+}
 td:first-child{
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
