@@ -34,9 +34,9 @@ module.exports = {
                         console.log("Error while updating")
                         console.log(err)
                     }
-                    else{
-                        console.log("Updated Docs : ", docs);
-                    }
+                    // else{
+                    //     console.log("Updated Docs : ", docs);
+                    // }
                 }
             )
         })

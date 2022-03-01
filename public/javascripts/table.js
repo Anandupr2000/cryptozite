@@ -4,7 +4,7 @@ function syncTableData(){
         url:"/json",
         method:"get",
         success:(response)=>{
-            console.log("Ajax succeeded")
+            // console.log("Ajax succeeded")
             console.log(l)
             for(var i=0;i<10;i++)
             document.getElementById(response[i]._id).innerHTML = "<td class='cell1'>"+response[i].slno

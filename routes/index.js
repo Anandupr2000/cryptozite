@@ -34,7 +34,7 @@ async function updateData() {
         delete data[element]["type"]
         delete data[element]["open"]
         delete data[element]["at"]
-        console.log("updating data");
+        // console.log("updating data");
         // const crypto = new cryptoDetailsModel(data[element]);
         // await crypto.save();
         // dbHelper.uploadData(data[element])
