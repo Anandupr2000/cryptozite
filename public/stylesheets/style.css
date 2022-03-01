@@ -142,21 +142,34 @@ table tr{
 }
 .table2 tr{
   background-color: grey;
+  height: 50px;
 }
+
+th:nth-child(1){
+  width: 10px;
+  padding-left: 20px;
+}
+
+
+#table{
+  text-align: center;
+}
+
 th {
-  /* background-color:grey; */
   background-color: rgba(184, 111, 38, 0);
   color:grey;
 }
 th,td {
-  width:150px;
+  width:100px;
   border:1px solid black;
-  padding-top:5px;
-  padding-bottom:5px;
-  padding-left: 30px;
+  text-align: center;
+}
+.table2 td:nth-child(1){
+  width: 10px;
 }
 .cell1 {
   border-right:hidden;
+  width: 10px;
 }
 .table2 {
   border-collapse:separate;
