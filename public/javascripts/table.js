@@ -23,4 +23,4 @@ function syncTableData(){
         }
     })
 }
-setInterval(syncTableData,30000)
+setInterval(syncTableData,60000)
