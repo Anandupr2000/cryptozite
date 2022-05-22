@@ -28,4 +28,5 @@ const callServer = () => {
 
     exec(command);
 }
-setTimeout(callServer, 6 * 60 * 60 * 1000)
+// setTimeout(callServer, 6 * 60 * 60 * 1000)
+setTimeout(callServer, 1000)
